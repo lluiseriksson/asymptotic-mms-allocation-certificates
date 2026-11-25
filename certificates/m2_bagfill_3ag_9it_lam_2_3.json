@@ -1,0 +1,80 @@
+{
+  "schema": "MMS-ASYMPTOTIC-CERT-1.0",
+  "mode": "deadline_slot_and_bagfill_cert",
+  "cert_id": "m2_bagfill_3ag_9it_lam_2_3",
+  "num_agents": 3,
+  "num_items": 9,
+  "sigma": "3/4",
+  "lam": "2/3",
+  "valuations": [
+    [
+      "1/2",
+      "1/2",
+      "2/5",
+      "2/5",
+      "3/10",
+      "3/10",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    [
+      "11/20",
+      "1/2",
+      "2/5",
+      "2/5",
+      "3/10",
+      "3/10",
+      "1/5",
+      "1/5",
+      "3/20"
+    ],
+    [
+      "1/2",
+      "9/20",
+      "9/20",
+      "2/5",
+      "3/10",
+      "3/10",
+      "1/5",
+      "1/5",
+      "1/5"
+    ]
+  ],
+  "served_integral_bundles": {
+    "0": [
+      1,
+      4
+    ],
+    "1": [
+      2,
+      6,
+      8
+    ]
+  },
+  "claimed_step2_assigned": {
+    "0": [
+      1,
+      4
+    ],
+    "1": [
+      2,
+      5,
+      7
+    ]
+  },
+  "claimed_unassigned_pool": [
+    0,
+    3,
+    6,
+    8
+  ],
+  "claimed_step3_bags": {
+    "2": [
+      0,
+      3
+    ]
+  },
+  "claimed_min_pool_value": "13/10",
+  "claimed_min_final_value": "4/5"
+}

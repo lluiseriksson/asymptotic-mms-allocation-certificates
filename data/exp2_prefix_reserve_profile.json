@@ -1,0 +1,133 @@
+{
+  "n": 6,
+  "m": 18,
+  "lam": "2/3",
+  "rows": [
+    {
+      "prefix_j": 1,
+      "unassigned_count": 1,
+      "reserve_lb": 0.3333,
+      "assigned_count": 0,
+      "cap_lam_j": 0.6667
+    },
+    {
+      "prefix_j": 2,
+      "unassigned_count": 1,
+      "reserve_lb": 0.6667,
+      "assigned_count": 1,
+      "cap_lam_j": 1.3333
+    },
+    {
+      "prefix_j": 3,
+      "unassigned_count": 1,
+      "reserve_lb": 1.0,
+      "assigned_count": 2,
+      "cap_lam_j": 2.0
+    },
+    {
+      "prefix_j": 4,
+      "unassigned_count": 2,
+      "reserve_lb": 1.3333,
+      "assigned_count": 2,
+      "cap_lam_j": 2.6667
+    },
+    {
+      "prefix_j": 5,
+      "unassigned_count": 2,
+      "reserve_lb": 1.6667,
+      "assigned_count": 3,
+      "cap_lam_j": 3.3333
+    },
+    {
+      "prefix_j": 6,
+      "unassigned_count": 2,
+      "reserve_lb": 2.0,
+      "assigned_count": 4,
+      "cap_lam_j": 4.0
+    },
+    {
+      "prefix_j": 7,
+      "unassigned_count": 3,
+      "reserve_lb": 2.3333,
+      "assigned_count": 4,
+      "cap_lam_j": 4.6667
+    },
+    {
+      "prefix_j": 8,
+      "unassigned_count": 3,
+      "reserve_lb": 2.6667,
+      "assigned_count": 5,
+      "cap_lam_j": 5.3333
+    },
+    {
+      "prefix_j": 9,
+      "unassigned_count": 3,
+      "reserve_lb": 3.0,
+      "assigned_count": 6,
+      "cap_lam_j": 6.0
+    },
+    {
+      "prefix_j": 10,
+      "unassigned_count": 4,
+      "reserve_lb": 3.3333,
+      "assigned_count": 6,
+      "cap_lam_j": 6.6667
+    },
+    {
+      "prefix_j": 11,
+      "unassigned_count": 4,
+      "reserve_lb": 3.6667,
+      "assigned_count": 7,
+      "cap_lam_j": 7.3333
+    },
+    {
+      "prefix_j": 12,
+      "unassigned_count": 4,
+      "reserve_lb": 4.0,
+      "assigned_count": 8,
+      "cap_lam_j": 8.0
+    },
+    {
+      "prefix_j": 13,
+      "unassigned_count": 5,
+      "reserve_lb": 4.3333,
+      "assigned_count": 8,
+      "cap_lam_j": 8.6667
+    },
+    {
+      "prefix_j": 14,
+      "unassigned_count": 5,
+      "reserve_lb": 4.6667,
+      "assigned_count": 9,
+      "cap_lam_j": 9.3333
+    },
+    {
+      "prefix_j": 15,
+      "unassigned_count": 5,
+      "reserve_lb": 5.0,
+      "assigned_count": 10,
+      "cap_lam_j": 10.0
+    },
+    {
+      "prefix_j": 16,
+      "unassigned_count": 6,
+      "reserve_lb": 5.3333,
+      "assigned_count": 10,
+      "cap_lam_j": 10.6667
+    },
+    {
+      "prefix_j": 17,
+      "unassigned_count": 7,
+      "reserve_lb": 5.6667,
+      "assigned_count": 10,
+      "cap_lam_j": 11.3333
+    },
+    {
+      "prefix_j": 18,
+      "unassigned_count": 8,
+      "reserve_lb": 6.0,
+      "assigned_count": 10,
+      "cap_lam_j": 12.0
+    }
+  ]
+}

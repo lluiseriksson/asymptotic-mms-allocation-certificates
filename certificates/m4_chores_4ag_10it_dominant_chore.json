@@ -1,0 +1,273 @@
+{
+  "schema": "MMS-ASYMPTOTIC-CERT-1.0",
+  "mode": "goods_and_chores_mms_allocation_cert",
+  "cert_id": "m4_chores_4ag_10it_dominant_chore",
+  "setting": "chores",
+  "num_agents": 4,
+  "num_items": 10,
+  "epsilon": "1/10",
+  "valuations": [
+    [
+      "10",
+      "4",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "4",
+      "10",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "3",
+      "4",
+      "10",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "3",
+      "3",
+      "4",
+      "10",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ]
+  ],
+  "mms_witness_partitions": [
+    [
+      [
+        0
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        7,
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        1
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        7,
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        2
+      ],
+      [
+        1,
+        0,
+        4
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        7,
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        3
+      ],
+      [
+        2,
+        0,
+        4
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        7,
+        8,
+        9
+      ]
+    ]
+  ],
+  "allocation": [
+    [
+      1,
+      2,
+      4,
+      5
+    ],
+    [
+      0,
+      3,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      9
+    ]
+  ],
+  "comparison_queries": [
+    {
+      "agent": 0,
+      "bundle_a": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "bundle_b": [
+        0
+      ],
+      "preferred": "b"
+    },
+    {
+      "agent": 0,
+      "bundle_a": [
+        7,
+        8,
+        9
+      ],
+      "bundle_b": [
+        1,
+        2
+      ],
+      "preferred": "a"
+    },
+    {
+      "agent": 1,
+      "bundle_a": [
+        0,
+        3,
+        6
+      ],
+      "bundle_b": [
+        1
+      ],
+      "preferred": "a"
+    },
+    {
+      "agent": 1,
+      "bundle_a": [
+        2,
+        3
+      ],
+      "bundle_b": [
+        7,
+        8,
+        9
+      ],
+      "preferred": "tie"
+    },
+    {
+      "agent": 2,
+      "bundle_a": [
+        7,
+        8
+      ],
+      "bundle_b": [
+        2
+      ],
+      "preferred": "a"
+    },
+    {
+      "agent": 2,
+      "bundle_a": [
+        0,
+        1
+      ],
+      "bundle_b": [
+        3,
+        4,
+        5
+      ],
+      "preferred": "tie"
+    },
+    {
+      "agent": 3,
+      "bundle_a": [
+        9
+      ],
+      "bundle_b": [
+        3
+      ],
+      "preferred": "a"
+    },
+    {
+      "agent": 3,
+      "bundle_a": [
+        0,
+        1,
+        2
+      ],
+      "bundle_b": [
+        3
+      ],
+      "preferred": "tie"
+    }
+  ],
+  "claimed_mms_benchmarks": [
+    "10",
+    "10",
+    "10",
+    "10"
+  ],
+  "claimed_agent_values": [
+    "11",
+    "9",
+    "4",
+    "2"
+  ],
+  "claimed_worst_ratio": "11/10"
+}

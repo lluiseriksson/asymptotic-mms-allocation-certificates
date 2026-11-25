@@ -1,0 +1,114 @@
+{
+  "schema": "MMS-ASYMPTOTIC-CERT-1.0",
+  "mode": "small_slack_dual_price_cert",
+  "cert_id": "m3_dual_3ag_6it_heavy_prefix",
+  "num_agents": 3,
+  "num_items": 6,
+  "sigma": "3/4",
+  "lam": "19/20",
+  "ordinary_threshold": "1/2",
+  "valuations": [
+    [
+      "4/5",
+      "4/5",
+      "4/5",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    [
+      "4/5",
+      "4/5",
+      "4/5",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    [
+      "3/4",
+      "3/4",
+      "3/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ]
+  ],
+  "mms_partitions": [
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  ],
+  "dual_zeta": [
+    "19/20",
+    "19/20",
+    "19/20"
+  ],
+  "dual_alpha": [
+    "0",
+    "0",
+    "9/10",
+    "0",
+    "0",
+    "1/20"
+  ],
+  "claimed_prices": [
+    "19/20",
+    "19/20",
+    "19/20",
+    "1/20",
+    "1/20",
+    "1/20"
+  ],
+  "claimed_delta": "3/20",
+  "claimed_ordinary_agents": [
+    0,
+    1,
+    2
+  ],
+  "claimed_reserved_agents": [],
+  "claimed_prefix_M1": [
+    0,
+    1,
+    2
+  ],
+  "claimed_M2_price_sum": "3/20"
+}

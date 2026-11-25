@@ -1,0 +1,15 @@
+{
+  "title": "Machine-Checked Exact-Rational Checkpoint Rounding, Dual-Price Markov, and Goods/Chores (1 -/+ eps)-MMS Allocation Certificates",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "Zehan Lin, Shengxin Liu, Biaoshuai Tao, Xiaowei Wu, and Yuhao Zhang (arXiv:2611.33052, November 24, 2026) resolved the asymptotic maximin share (MMS) conjecture of Feige and Grinberg for additive fair division: for every eps > 0 and all sufficiently large n >= n_0(eps), every instance with n agents admits a (1 - eps)-MMS allocation for indivisible goods and a (1 + eps)-MMS allocation for indivisible chores, computable in randomized polynomial time using only ordinal bundle-comparison queries. We present a machine-checked, zero-floating-point formalization and exact-Q certificate auditor for the deterministic LP-rounding, deadline-slot, Abel-summation, dual-price Markov, and exact-MMS allocation core of this breakthrough. First, an 18-theorem zero-dependency Lean 4 kernel (AsymptoticMMS.lean, Lean 4.35.0; 0 sorry, 0 warnings, 0 Classical.choice, 2 zero-axiom theorems) formalizes Algorithm 3.1 Step 1 checkpoint counting and Lemma 3.5 support halving, terminal rounding loss 160L, Step 2 ceil(k/lambda) strict slot monotonicity and prefix reserve |U cap M_[j]| >= (1-lambda)j, exact Eq. (3.1) Abel summation by induction, Step 3 greedy bag-filling survival, Section 3.3 dual price double-summation p(M) = sum_j j alpha_j, Definition 3.7 Markov reserved-agent decay |N_r| L^2 < 1536 n, reduced-MMS segment counts, dual price transfer, and the goods/chores landmark hierarchy. Second, MMS-ASYMPTOTIC-CERT-1.0 audits four exact-Q modes across 16 canonical certificates (0.211-0.864 ms) and rejects 60/60 live adversarial forgeries.",
+  "primary_domain": "cs.GT",
+  "secondary_domains": ["cs.DS", "cs.LO"],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by Lluis Eriksson with transparent AI assistance via Google Antigravity.",
+  "source_repo": "https://github.com/lluiseriksson/asymptotic-mms-allocation-certificates",
+  "release_tag": "v1.0.0",
+  "hostile_referee_verdict": "ACCEPT",
+  "hostile_referee_score": "9.5/10 (4.5/5)"
+}
